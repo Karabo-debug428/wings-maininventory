@@ -1,43 +1,30 @@
-# Wings Café Inventory — Assignment Starter
+Wings Café Inventory
 
-This project scaffolds your Web Application Development assignment:
-React + CSS (frontend), Node/Express (backend), JSON file as the "database".
+Overview:
+Wings Café Inventory is a full-stack web application designed for café inventory management. The project demonstrates a modern architecture using React and CSS for the frontend, Node.js with Express for the backend, and a JSON file that serves as a simple database. It manages products, stock transactions, customers, and sales, while providing essential reports and low-stock alerts.
 
-## Quick Start
-1) Install Node.js LTS.
-2) In one terminal:
-```
-cd backend
-npm install
-npm run dev
-```
-Backend runs at http://localhost:4000 and stores data in `src/db/db.json`.
+Frontend:
+The frontend was built with React and Vite, styled using CSS. It offered a clean and interactive interface for managing products, customers, and sales.
 
-3) In another terminal:
-```
-cd frontend
-npm install
-npm run dev
-```
-Open the URL Vite prints (usually http://localhost:5173).
+Backend:
+The backend was powered by Node.js and Express, with CORS enabled to allow communication with the frontend. It handled all the data operations, including stock management and sales processing. The database was stored in a JSON file (backend/src/db/db.json) for simplicity and ease of use.
 
-## Tech
-- Frontend: React + Vite + CSS
-- Backend: Express + CORS
-- Database: JSON (`backend/src/db/db.json`)
+Key Features:
 
-## Features included
-- Product CRUD (name, description, category, price, quantity)
-- Stock transactions (add/remove), with validation (no negative stock)
-- Low-stock alert endpoint + dashboard tile
-- Customers minimal CRUD
-- Sales create (records sale and adjusts stock)
-- Reports: low stock, simple sales summary
+Product Management: Full CRUD operations for products, including name, description, category, price, and quantity.
 
-## Deploy
-- Push to GitHub (root contains both backend and frontend).
-- Host Frontend on Netlify/Vercel; host Backend on Render/Glitch/Railway.
-- Update `frontend/src/api/client.js` BASE_URL to your deployed backend URL.
+Stock Transactions: Allowed adding or removing stock with built-in validation to prevent negative stock levels.
 
-Good luck!
-n
+Low-Stock Alerts: Provided real-time low-stock notifications displayed on the dashboard.
+
+Customer Management: Included minimal CRUD functionality for customers.
+
+Sales Management: Created sales records while automatically adjusting stock levels.
+
+Reports: Generated low-stock reports and simple sales summaries to support inventory decisions.
+
+Deployment:
+The project was structured for deployment with the frontend hosted on Netlify or Vercel, and the backend on Render, Glitch, or Railway. The frontend communicated with the backend via a configurable BASE_URL.
+
+Purpose:
+This project illustrated a full-stack development workflow, integrating frontend and backend technologies to solve real-world inventory management challenges in a café environment.
