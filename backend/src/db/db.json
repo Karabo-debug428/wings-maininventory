@@ -1,0 +1,110 @@
+{
+  "sales": [
+    {
+      "id": 1,
+      "productId": 1,
+      "qty": 2,
+      "date": "2025-09-12"
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "qty": 5,
+      "date": "2025-09-12"
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "qty": 5,
+      "date": "2025-09-12"
+    },
+    {
+      "id": 4,
+      "productId": 4,
+      "qty": 16,
+      "date": "2025-09-12"
+    },
+    {
+      "id": 5,
+      "productId": 5,
+      "qty": 50,
+      "date": "2025-09-12"
+    },
+    {
+      "id": 6,
+      "productId": 6,
+      "qty": 7,
+      "date": "2025-09-12"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Wings",
+      "price": 30,
+      "cost": 20,
+      "quantity": 5,
+      "category": "Food"
+    },
+    {
+      "id": 2,
+      "name": "Burger",
+      "price": 45,
+      "cost": 25,
+      "quantity": 10,
+      "category": "Food"
+    },
+    {
+      "id": 3,
+      "name": "Fries",
+      "price": 15,
+      "cost": 7,
+      "quantity": 2,
+      "category": "Food"
+    },
+    {
+      "id": 4,
+      "name": "Go Slows",
+      "price": 6,
+      "cost": 3,
+      "quantity": 5,
+      "category": "Snack"
+    },
+    {
+      "id": 5,
+      "name": "lolli pop",
+      "price": 3,
+      "cost": 1,
+      "quantity": 10,
+      "category": "Snack"
+    },
+    {
+      "id": 6,
+      "name": "Takeaway",
+      "price": 35,
+      "cost": 20,
+      "quantity": 5,
+      "category": "Food"
+    },
+    {
+      "id": "94c3b774-9ba2-4f5b-9294-cd4b17216868",
+      "name": "juice",
+      "description": "",
+      "category": "Drinks",
+      "price": 1,
+      "quantity": 4,
+      "createdAt": "2025-09-13T11:47:54.595Z",
+      "updatedAt": "2025-09-13T11:47:54.595Z"
+    },
+    {
+      "id": "e089beb0-4d25-41fa-b0a0-00d4ec25aa81",
+      "name": "drink",
+      "description": "",
+      "category": "Food",
+      "price": 3,
+      "quantity": 2,
+      "createdAt": "2025-09-13T13:23:46.607Z",
+      "updatedAt": "2025-09-13T13:23:46.607Z"
+    }
+  ]
+}
